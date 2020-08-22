@@ -1,0 +1,216 @@
+h2 {
+    color: white;
+}
+
+body {
+    margin: 60px;
+}
+
+.theatre {
+    display: flex;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-top: 15em;
+    transform: translate(-50%, -50%);
+}
+
+.cinema-seats {
+    display: flex;
+}
+
+.seats {
+    cursor: pointer;
+}
+
+&
+:hover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+}
+
+.activeSeat {
+    background: linear-gradient(to top, rgba(179, 172, 67, 0.82), #a9af44, rgba(177, 171, 53, 0.6), #b5c750, #dcd336, #e2ec42, #fff200);
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    transform: skew(-18deg);
+    margin-top: -32px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.occupiedSeat {
+    background: linear-gradient(to top, rgba(67, 179, 163, 0.82), #446aaf, rgba(53, 74, 177, 0.6), #5096c7, #36aedc, #426eec, #007dd3);
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    transform: skew(-18deg);
+    margin-top: -32px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+
+.left {
+}
+
+.cinema-row {
+    transform: skew(-15deg);
+    margin: 0 6px;
+}
+
+.seat {
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+    margin-bottom: 10px;
+    transform: skew(20deg);
+    margin-top: -32px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+    cursor: pointer;
+}
+
+.row-2 {
+    transform: skew(-13deg);
+}
+
+.seat {
+    transform: skew(18deg);
+}
+
+
+.row-3 {
+    transform: skew(-12deg);
+}
+
+.seat {
+    transform: skew(16deg);
+}
+
+
+.row-4 {
+    transform: skew(-11deg);
+}
+
+.seat {
+    transform: skew(15deg);
+}
+
+
+.row-5 {
+    transform: skew(-10deg);
+}
+
+.seat {
+    transform: skew(12deg);
+}
+
+
+.row-6 {
+    transform: skew(-9deg);
+}
+
+.seat {
+    transform: skew(10deg);
+}
+
+
+.row-7 {
+    transform: skew(-7deg);
+}
+
+.seat {
+    transform: skew(8deg);
+}
+
+
+background:
+
+linear-gradient
+(
+to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A
+
+)
+;
+.right {
+    margin-left: 70px;
+}
+
+.cinema-row {
+    transform: skew(7deg);
+    margin: 0 6px;
+}
+
+.seat {
+    width: 35px;
+    height: 50px;
+    border-radius: 7px;
+    background: linear-gradient(to top, #761818, #761818, #761818, #761818, #761818, #B54041, #F3686A);
+    margin-bottom: 10px;
+    transform: skew(-8deg);
+    margin-top: -32px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.row-2 {
+    transform: skew(9deg);
+}
+
+.seat {
+    transform: skew(-10deg);
+}
+
+
+.row-3 {
+    transform: skew(10deg);
+}
+
+.seat {
+    transform: skew(-12deg);
+}
+
+
+.row-4 {
+    transform: skew(11deg);
+}
+
+.seat {
+    transform: skew(-15deg);
+}
+
+
+.row-5 {
+    transform: skew(12deg);
+}
+
+.seat {
+    transform: skew(-16deg);
+}
+
+
+.row-6 {
+    transform: skew(13deg);
+}
+
+.seat {
+    transform: skew(-18deg);
+}
+
+
+.row-7 {
+    transform: skew(15deg);
+}
+
+.seat {
+    transform: skew(-20deg);
+}
+
